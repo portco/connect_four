@@ -1,1 +1,4 @@
-index.md
+---
+layout: post
+title: Blogging Like a Hacker
+---
