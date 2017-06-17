@@ -10,8 +10,8 @@ Do the usual:
 
 ## Usage
 
-From the command-line, to start a ConnectFour game with players named Alice and
-Bob, invoke:
+To start a ConnectFour game (with players named Alice and Bob) invoke the
+following from the command-line:
 
     $ connect_four alice bob
 
