@@ -1,6 +1,8 @@
 # ConnectFour
 
-This project provides a scaffold to implement a CLI-based ConnectFour game.
+This project provides a scaffold for a CLI-based ConnectFour game in Ruby. It
+implements minimal functionality that allows it to run and demonstrate the
+game-loop.
 
 ## Installation
 
