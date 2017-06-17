@@ -36,7 +36,7 @@ module ConnectFour
 
     def valid?
       # validate the player's latest turn
-      !latest_turn.nil? && latest_turn.even?
+      latest_turn && latest_turn.even?
     end
   end
 end
