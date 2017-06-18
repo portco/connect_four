@@ -31,14 +31,6 @@ executable from within the project directory by invoking:
 
     $ ./exe/connect_four alice bob
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at
-https://github.com/[USERNAME]/connect_four.
-This project is intended to be a safe, welcoming space for collaboration, and
-contributors are expected to adhere to the
-[Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## License
 
 The gem is available as open source under the terms of the
