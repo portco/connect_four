@@ -30,10 +30,8 @@ it into your own GitHub repo and commit your changes there.
 
 Connect Four is a two-player connection game in which the players first choose a
 color and then take turns dropping colored discs from the top into a
-7-columns x 6-rows vertically suspended grid.
-
-The pieces fall straight down, occupying the next available space within the
-column.
+7-columns x 6-rows vertically suspended grid. The pieces fall straight down,
+occupying the next available space within the column.
 
 The objective of the game is to be the first to form a horizontal, diagonal, or
 vertical line of four of one's own discs.
@@ -52,13 +50,13 @@ There are two players: Alice (black discs) and Bob (white discs)
 1. Alice takes her turn and drops a disc in column 2, the disc slides all the
   way and rests at the bottom.
 
-  ![alices-move](/img/alices-move.png?raw=true "Alice's Move")
+  ![alices-move](/img/alices-move.jpg?raw=true "Alice's Move")
 
-2. Bob takes his turn and drops a disc also in column 2 ; the disc
+2. Bob takes his turn and drops a disc also in column 2, the disc
    slides all the way down until it is blocked by Alice's disc, resting on top
    of it.
 
-  ![bobs-move](/img/bobs-move.png?raw=true "Bob's Move")
+  ![bobs-move](/img/bobs-move.jpg?raw=true "Bob's Move")
 
 3. The game progresses alternating between Alice and Bob's turn to drop a disc
    at a column of their choice until one of the following conditions occur:
