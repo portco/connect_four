@@ -9,7 +9,7 @@ Implement the Connect Four game as command-line app written in Ruby.
 
 If you are not familiar with the game, read the
 **[Game Mechanics](index.md#game-mechanics)** and
-**[Sample Game Play](index.md#sample-game-play)** section for a description of
+**[Sample Game Play](index.md#sample-game-play)** sections for a description of
 how the game is played and concluded.
 
 We have provided a scaffold project as a starting point. It implements the
@@ -31,11 +31,11 @@ it into your own GitHub repo and commit your changes there.
   extensibility, separation of concerns, etc); attention to detail (code layout,
   formatting, etc); level of proficiency in the language; and quality of tests.
 
-### Game Mechanics
+## Game Mechanics
 
 Connect Four is a two-player connection game in which the players first choose a
 color and then take turns dropping colored discs from the top into a
-7 columns x 6 rows vertically suspended grid.
+7-columns x 6-rows vertically suspended grid.
 
 The pieces fall straight down, occupying the next available space within the
 column.
@@ -48,7 +48,7 @@ were able to effect a winning configuration.
 
 See: https://en.wikipedia.org/wiki/Connect_Four
 
-### Sample Game Play
+## Sample Game Play
 
 There are two players: Alice (red discs) and Bob (white discs)
 
