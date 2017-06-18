@@ -1,13 +1,11 @@
 module ConnectFour
   class Board
-    def play(player)
-      request player.turn until valid?
-      update_states
-    end
+    attr_reader :move
 
-    def request(turn)
-      # use the player's latest turn against the board's state
-      @latest_turn = turn.to_i
+    def play(move)
+      @move = move
+      update
+      render
     end
 
     def connect_four?
@@ -20,23 +18,15 @@ module ConnectFour
       false
     end
 
-    def render
-      # render the board's state
-    end
-
     private
 
-    attr_reader :latest_turn
-
-    def update_states
-      # update the board's state based on the player's latest turn
-      # and clear the latest turn
-      @latest_turn = nil
+    def render
+      puts "[board] updated with move: #{move}"
+      puts
     end
 
-    def valid?
-      # validate the player's latest turn
-      latest_turn && latest_turn.even?
+    def update
+      # update the board's state based on the player's moee
     end
   end
 end

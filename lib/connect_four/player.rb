@@ -6,7 +6,7 @@ module ConnectFour
       @name = name
     end
 
-    def turn
+    def move
       print "[#{name}]: "
       STDIN.gets.chomp
     end
