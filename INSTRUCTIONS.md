@@ -1,9 +1,4 @@
----
-layout: post
-title: Connect Four Coding Challenge
----
-
-## Connect Four Coding Challenge
+# Connect Four Coding Challenge
 
 Implement the Connect Four game as command-line app written in Ruby.
 
