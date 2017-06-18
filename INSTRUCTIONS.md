@@ -40,7 +40,6 @@ vertical line of four of one's own discs.
 
 ![winning-positions](/img/winning-positions.png?raw=true "Winning Positions")
 
-
 The game is a tie if the entire grid is filled with discs and neither player
 were able to effect a winning configuration.
 
@@ -50,12 +49,16 @@ See: https://en.wikipedia.org/wiki/Connect_Four
 
 There are two players: Alice (black discs) and Bob (white discs)
 
-1. Alice takes her turn and drops a disc in column 1 (cell 0, 0); The disc rests
-  at the bottom (cell 0, 5)
+1. Alice takes her turn and drops a disc in column 2; The disc slides and rests
+  at the bottom.
+
+  ![alices-move](/img/alices-move.png?raw=true "Alice's Move")
 
 2. Bob takes his turn and drops a disc also in column 1 (cell 0, 0); the disc
    slides all the way down until it is blocked by Alice's disc, resting on top
    of it (cell 0, 4)
+
+  ![bobs-move](/img/bobs-move.png?raw=true "Bob's Move")
 
 3. The game progresses alternating between Alice and Bob's turn to drop a disc
    at a column of their choice until one of the following conditions occur:
