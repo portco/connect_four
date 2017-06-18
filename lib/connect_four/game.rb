@@ -26,7 +26,7 @@ module ConnectFour
     attr_reader :board, :players, :current_player_index
 
     def welcome
-      puts "[ConnectFour] #{players.map(&:name).join(' vs ')}"
+      puts "[Connect Four] #{players.map(&:name).join(' vs ')}"
       puts
     end
 
