@@ -7,9 +7,10 @@ title: Connect Four Coding Challenge
 
 Implement the Connect Four game as command-line app written in Ruby.
 
-If you are not familiar with the game, read the **Game Mechanics** and
-**Sample Game Play** section for a description of how the game is played and
-concluded.
+If you are not familiar with the game, read the
+**[Game Mechanics](index.md#game-mechanics)** and
+**[Sample Game Play](index.md#sample-game-play)** section for a description of
+how the game is played and concluded.
 
 We have provided a scaffold project as a starting point. It implements the
 minimum required to be able to run the game loop.
