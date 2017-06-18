@@ -1,6 +1,6 @@
 # Connect Four Coding Challenge
 
-Implement the Connect Four game as command-line app written in Ruby.
+Implement the Connect Four game as a command-line app written in Ruby.
 
 If you are not familiar with the game, read the
 **[Game Mechanics](index.md#game-mechanics)** and
