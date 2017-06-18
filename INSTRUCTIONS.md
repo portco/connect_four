@@ -38,6 +38,9 @@ column.
 The objective of the game is to be the first to form a horizontal, vertical, or
 diagonal line of four of one's own discs.
 
+![winning-positions](/img/winning-positions.png?raw=true "Winning Positions")
+
+
 The game is a tie if the entire grid is filled with discs and neither player
 were able to effect a winning configuration.
 
