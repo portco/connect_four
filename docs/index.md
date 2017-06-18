@@ -23,13 +23,13 @@ it into your own GitHub repo and commit your changes there.
 
 ## Task Guidelines
 
-- Feel free to alter the structure and code of the classes that was included in
-  the scaffold project to fit your solution.
 - There is no need to implement an AI or electornic player. The app only needs
   to be able to officiate the game play between human players.
 - We'll be reviewing the implementation for class and system design (modularity,
   extensibility, separation of concerns, etc); attention to detail (code layout,
   formatting, etc); level of proficiency in the language; and quality of tests.
+- Feel free to alter the structure and code of the classes that was included in
+  the scaffold project to fit your solution.
 
 ## Game Mechanics
 
@@ -50,7 +50,7 @@ See: https://en.wikipedia.org/wiki/Connect_Four
 
 ## Sample Game Play
 
-There are two players: Alice (red discs) and Bob (white discs)
+There are two players: Alice (black discs) and Bob (white discs)
 
 1. Alice takes her turn and drops a disc in column 1 (cell 0, 0); The disc rests
   at the bottom (cell 0, 5)
