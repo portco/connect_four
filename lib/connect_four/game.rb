@@ -8,16 +8,7 @@ module ConnectFour
 
     def launch
       welcome
-
-      loop do
-        board.play current_player
-        board.render
-
-        break if complete?
-        switch_player
-        puts
-      end
-
+      play
       summarize
     end
 
@@ -25,6 +16,16 @@ module ConnectFour
 
     attr_reader :board, :players, :current_player_index
 
+    def play
+      loop do
+        board.play current_player
+        board.render
+        break if complete?
+        switch_player
+        puts
+      end
+    end
+    
     def welcome
       puts "[Connect Four] #{players.map(&:name).join(' vs ')}"
       puts
