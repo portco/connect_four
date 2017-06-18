@@ -18,7 +18,7 @@ it into your own GitHub repo and commit your changes there.
 
 ## Task Guidelines
 
-- There is no need to implement an AI or electornic player. The app only needs
+- There is no need to implement an AI or electronic player. The app only needs
   to be able to officiate the game play between human players.
 - We'll be reviewing the implementation for class and system design (modularity,
   extensibility, separation of concerns, etc); attention to detail (code layout,
