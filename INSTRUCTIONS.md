@@ -47,14 +47,13 @@ See: https://en.wikipedia.org/wiki/Connect_Four
 
 There are two players: Alice (black discs) and Bob (white discs)
 
-1. Alice takes her turn and drops a disc in column 2, the disc slides all the
+1. Alice takes her turn and drops a disc in column 2; the disc slides all the
   way and rests at the bottom.
 
   ![alices-move](/img/alices-move.jpg?raw=true "Alice's Move")
 
 2. Bob takes his turn and drops a disc also in column 2, the disc
-   slides all the way down until it is blocked by Alice's disc, resting on top
-   of it.
+   slides all the way down until it is blocked by Alice's disc.
 
   ![bobs-move](/img/bobs-move.jpg?raw=true "Bob's Move")
 
