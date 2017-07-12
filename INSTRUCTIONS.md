@@ -20,11 +20,20 @@ it into your own GitHub repo and commit your changes there.
 
 - There is no need to implement an AI or electronic player. The app only needs
   to be able to officiate the game play between human players.
-- We'll be reviewing the implementation for class and system design (modularity,
-  extensibility, separation of concerns, etc); attention to detail (code layout,
-  formatting, etc); level of proficiency in the language; and quality of tests.
 - Feel free to alter the structure and code of the classes that was included in
   the scaffold project to fit your solution.
+  
+## Evaluation Criteria
+
+We will look at your project and assess it for:
+
+1. **Design** - demonstrate good modularity, extensibility, and separation of concerns.
+2. **Simplicity** - aim for the simplest solution that gets the job done while remaining readable, extensible, and testable.
+3. **Test Coverage** - breaking changes should break your tests.
+4. **Style** - display proficiency with the langauge and a consistent and readable style.
+5. **Robustness** - should handle and report errors.
+
+If you have any questions about this criteria please ask.
 
 ## Game Mechanics
 
