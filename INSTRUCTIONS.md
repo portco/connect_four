@@ -25,13 +25,11 @@ it into your own GitHub repo and commit your changes there.
   
 ## Evaluation Criteria
 
-We will look at your project and assess it for:
-
-1. **Design** - demonstrate good modularity, extensibility, and separation of concerns.
-2. **Simplicity** - aim for the simplest solution that gets the job done while remaining readable, extensible, and testable.
-3. **Test Coverage** - breaking changes should break your tests.
-4. **Style** - display proficiency with the langauge and a consistent and readable style.
-5. **Robustness** - should handle and report errors.
+1. **Does It Work** - Does the solution run per the instructions?
+2. **Design** - Does the solution demonstrate good modularity, extensibility, and separation of concerns?
+3. **Readability** - Does the solution display proficiency with the language, a consistent style, and is it understandable? **Hint:** Use of your favorite linter or static anaylsis tool highly encouraged!
+4. **Testing** - Do the tests pass, do they verify all the use cases, are they structured well, do they break when unexpected changes are made?
+5. **Robustness** - Does the solution work quickly, efficiently, and gracefully handle unexpected situations?
 
 If you have any questions about this criteria please ask.
 
