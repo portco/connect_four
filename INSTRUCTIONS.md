@@ -26,7 +26,7 @@ it into your own GitHub repo and commit your changes there.
 ## Evaluation Criteria
 
 1. **Does It Work** - Does the solution run per the instructions?
-2. **Design** - Does the solution demonstrate good modularity, extensibility, and separation of concerns?
+2. **Design** - Does the solution demonstrate good modularity, extensibility, and separation of concerns? Are appropriate OOP/OOD principles employed?
 3. **Readability** - Does the solution display proficiency with the language, a consistent style, and is it understandable? **Hint:** Use of your favorite linter or static anaylsis tool highly encouraged!
 4. **Testing** - Do the tests pass, do they verify all the use cases, are they structured well, do they break when unexpected changes are made?
 5. **Robustness** - Does the solution work quickly, efficiently, and gracefully handle unexpected situations?
