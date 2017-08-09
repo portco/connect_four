@@ -135,7 +135,7 @@ module ConnectFour
         if board_grid[next_column][i].to_i == current_player.number.to_i
           left_diagnal_counter += 1
           if left_diagnal_counter == 4
-            puts "Player : #{current_player.name} won the game!"
+            puts " Player : #{current_player.name} won the game!"
             return true
           end
         else
@@ -152,7 +152,7 @@ module ConnectFour
         if board_grid[next_column][next_row].to_i == current_player.number.to_i
           left_diagnal_counter += 1
           if left_diagnal_counter == 4
-            puts "Player : #{current_player.name} won the game!"
+            puts " Player : #{current_player.name} won the game!"
             return true
           end
         else
@@ -182,7 +182,7 @@ module ConnectFour
         if board_grid[next_column][i].to_i == current_player.number.to_i
           right_diagnal_counter += 1
           if right_diagnal_counter == 4
-            puts "Player : #{current_player.name} won the game!"
+            puts " Player : #{current_player.name} won the game!"
             return true
           end
         else
@@ -199,7 +199,7 @@ module ConnectFour
         if board_grid[next_column][i].to_i == current_player.number.to_i
           right_diagnal_counter += 1
           if right_diagnal_counter == 4
-            puts "Player : #{current_player.name} won the game!"
+            puts " Player : #{current_player.name} won the game!"
             return true
           end
         else
